@@ -3,16 +3,26 @@ body {
     background-image :url("https://static.vecteezy.com/system/resources/previews/000/388/522/non_2x/background-wallpaper-with-polygons-in-gradient-colors-vector.jpg");
     color :white;
     font-size : x-large;
+    
 
 }
 h1, h2 {
 
-    background-color :red;
+    background-color :#673ab78f;
     margin-right:280px;
+    margin-left:280px;
     text-align:center;
     padding:15;
 }
 a {
     background-color:black;
     color:white;
+}
+p, ol
+{
+    text-align:center;
+    background-color :#1b378e99;
+    margin-right:580px;
+    margin-left:580px;
+
 }
