@@ -1,0 +1,64 @@
+table{
+
+    border-collapse: collapmpse;
+
+}
+td {
+
+    border: 1px solid #04d9ec;
+    height :100px;
+    width  :150px;
+    text-align: center;
+    color:#5ffd00;
+    background:#000000f7;
+    border-collapse: separate;
+
+  color: #f5ff1b;
+  text-size:12px;
+  text-align: center;
+  -webkit-animation: glow 1s cubic-bezier(0, -1.24, 0, 1.54) infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s cubic-bezier(0, 0.51, 1, 0.26) infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #dbff22, 0 0 20px #FF9800, 0 0 30px #FFEB3B, 0 0 40px #4CAF50, 0 0 50px #9C27B0, 0 0 60px #F44336, 0 0 70px #009688;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #FF5722, 0 0 30px #FF9800, 0 0 40px #FFC107, 0 0 50px #4CAF50, 0 0 60px #9C27B0, 0 0 70px #F44336, 0 0 80px #009688;
+  }
+
+}
+h1 {
+
+    border: 1px solid #ffbb5b;
+    padding:40px;
+    width  :985px;
+    text-align: center;
+    color:#5ffd00;
+    background:#000000f7;
+    color: #ffffff;
+    text-size:12px;
+    text-align: center;
+    -webkit-animation: glow 1s cubic-bezier(0, -1.24, 0, 1.54) infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s cubic-bezier(0, 0.51, 1, 0.26) infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #ecfc97, 0 0 20px #FF9800, 0 0 30px #FFEB3B, 0 0 40px #4CAF50, 0 0 50px #9C27B0, 0 0 60px #F44336, 0 0 70px #009688;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #FF5722, 0 0 30px #FF9800, 0 0 40px #FFC107, 0 0 50px #4CAF50, 0 0 60px #9C27B0, 0 0 70px #F44336, 0 0 80px #009688;
+  }
+
+}
+
+body
+{
+    background:black;
+}

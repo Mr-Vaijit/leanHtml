@@ -1,0 +1,33 @@
+table{
+
+    border-collapse: collapmpse;
+
+}
+td {
+
+    border: 1px solid black;
+    height :100px;
+    width  :150px;
+    text-align: center;
+    color:#fffa14;
+    background:black;
+
+}
+.glow {
+  color: #ffe700;
+  text-size:12px;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #dbff22, 0 0 20px #FF9800, 0 0 30px #FFEB3B, 0 0 40px #4CAF50, 0 0 50px #9C27B0, 0 0 60px #F44336, 0 0 70px #009688;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #FF5722, 0 0 30px #FF9800, 0 0 40px #FFC107, 0 0 50px #4CAF50, 0 0 60px #9C27B0, 0 0 70px #F44336, 0 0 80px #009688;
+  }
+}
